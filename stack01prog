@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;  // This allows us to use names from the standard library directly
+
+class Stack {
+private:
+    vector<int> stack;  // Use vector to store elements
+
+public:
+    // Constructor
+    Stack() {}
+
+    // Push an element onto the stack
+    void push(int x) {
+        stack.push_back(x);  // Add the element at the end of the vector
+    }
+
+    // Pop an
